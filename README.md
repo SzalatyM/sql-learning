@@ -4,15 +4,19 @@
 
 1. Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-2. Open command prompt and go to the directory with `sql-learning` repository.
+2. Open command prompt and go to the directory with `sql-learning` repository, example:
 
-> cd .\sql-learning\
+```bash
+cd .\sql-learning\
+```
 
 3. Run the below command to run database on your machine
 
-> docker-compose up -d
+```bash
+docker-compose up -d
+```
 
-## How to use the database
+## How to configure the database
 
 1. Open `http://localhost:5050/` in the browser
 
@@ -31,7 +35,3 @@
 | Hostname/address | Port | Maintenance database | Username | Password |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | postgresdb | 5432 | postgres | postgres | password |
-
-
-
-
