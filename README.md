@@ -35,3 +35,5 @@ docker-compose up -d
 | Hostname/address | Port | Maintenance database | Username | Password |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | postgresdb | 5432 | postgres | postgres | password |
+
+6. Click the `Save` button and check if you see a new database on the left
