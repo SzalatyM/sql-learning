@@ -1,3 +1,4 @@
-SELECT DISTINCT lastname
+SELECT lastname, count(*)
 FROM users
-ORDER BY lastname ASC
+GROUP BY lastname 
+HAVING count(*) > 1;
