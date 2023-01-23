@@ -1,7 +1,6 @@
 CREATE TABLE orders(
-o_id INT,
-order_Date date,
-order_Time time,
+orderid INT,
+orderDateTime DATETIME,
 userid INT,
-PRIMARY KEY (o_id),
+PRIMARY KEY (orderid),
 FOREIGN KEY(userid) REFERENCES users (userid));
