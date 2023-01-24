@@ -1,8 +1,8 @@
 ﻿using TestDataGenerator;
 
-var users = UsersGenerator.Run(100);
+var orders = OrdersGenerator.Run(500);
 
-foreach(var user in users)
+foreach(var order in orders)
 {
-    Console.WriteLine($"({user.UserId}, '{user.FirstName}', '{user.LastName}', {user.Age}, '{user.City}'),");
+    Console.WriteLine($"({order.OrderId}, '{order.OrderDate.ToString("yyyy-MM-dd H:mm:ss")}', {order.UserId}),");
 }
